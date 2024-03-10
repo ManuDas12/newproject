@@ -7,6 +7,9 @@ public class Dog extends Animal {
   Dog obj=new Dog();
   System.out.println("color is" +obj.color);
 	}
+	public void display() {
+		System.out.println("bow bow");
+	}
    
 	
 }
